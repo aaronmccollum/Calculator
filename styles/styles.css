@@ -1,0 +1,39 @@
+button {
+    font-size: 24px;
+    background-color: lightgray;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: lightblue;
+}
+
+.key {
+    height: 80px;
+    width: 80px;
+}
+
+.row {
+    display: flex;
+}
+
+#calculator-input-display {
+    width: 315px;
+    height: 80px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+
+/* Syles to center the calculator on the screen */
+#calculator-border {
+    margin: auto;
+    width: 50%;
+    padding: 40px 10px 10px 10px;
+}
+
+#display-box, #keys-box {
+    margin: auto;
+    width: 50%;
+}
